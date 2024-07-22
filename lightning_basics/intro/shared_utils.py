@@ -76,8 +76,8 @@ def compute_accuracy(model, dataloader, device):
         features = features.to(device)
         labels = labels.to(device)
 
-        print(model.device)
-        print(features.device)
+        # print(model.device)
+        # print(features.device)
 
         with torch.no_grad():
             logits = model(features)

@@ -134,3 +134,4 @@ cython_debug/
 lightning_logs/
 models/
 data/
+csv_logs/
